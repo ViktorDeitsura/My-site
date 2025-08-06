@@ -1,4 +1,5 @@
 import Header from "../widgets/header/header";
+import Footer from "../widgets/footer/footer";
 
 export default function Home() {
   return (
@@ -7,9 +8,7 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
 
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        
-      </footer>
+      <Footer />
     </>
   );
 }
